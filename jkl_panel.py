@@ -15,5 +15,5 @@ class JKL_PT_Panel(bpy.types.Panel):
         row.operator('view3d.jkl_controls', text="", icon='PLAY_REVERSE').mode = "j"
         row.operator('view3d.jkl_controls', text="", icon='PAUSE').mode = "k"
         row.operator('view3d.jkl_controls', text="", icon='PLAY').mode = "l"
-        row.operator('view3d.jkl_controls', text="", icon='BACK').mode = "kl"
+        row.operator('view3d.jkl_controls', text="", icon='FORWARD').mode = "kl"
         
